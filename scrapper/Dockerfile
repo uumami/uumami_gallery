@@ -30,4 +30,4 @@ RUN pip install -r requirements.txt
 
 COPY scrapper.py /app
 
-CMD ["/bin/bash"]
+CMD ["python scrapper.py"]
