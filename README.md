@@ -1,3 +1,9 @@
 # uumami_gallery
-+ Neuralblender scrapper
-+ Web/blog dash app
+## Neuralblender scrapper
+``` 
+cd scrapper
+docker build --tag uumami_gallery:scrapper .
+docker run -it -e PASS=""  -e EMAIL="" -v /home/uumami/github/uumami_gallery/scrapper/images:/app uumami_gallery:scrapper
+```
+
+## Web/blog dash app
