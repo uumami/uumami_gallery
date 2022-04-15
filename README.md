@@ -7,3 +7,6 @@ docker run -it -e PASS=""  -e EMAIL="" -v /home/uumami/github/uumami_gallery/scr
 ```
 
 ## Web/blog dash app
+
+
+![image description](/home/uumami/github/uumami_gallery/scrapper/images/John von Neumann.png)
